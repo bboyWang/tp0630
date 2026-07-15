@@ -1,0 +1,6 @@
+TP2020数据集/
+.venv/
+__pycache__/
+*.pyc
+eiseg_model/
+information/
