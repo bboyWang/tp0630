@@ -172,4 +172,37 @@
 
 ---
 
+## 2026-07-31 — v9 服务器首训成功：Test OA 92.21% / mIoU 50.40%（大幅超越 v8）
+
+### 1. 服务器环境（新建）
+- conda 环境 `torch_cu121`（python 3.10）：**torch 2.4.1+cu121** + torchvision/audio + rasterio/numpy/tqdm/pillow
+- 说明：服务器直连外网慢，但 pip 已预置清华镜像（/etc/pip.conf），几分钟装完；
+  驱动 CUDA 12.2 不支持 cu124，PyPI 的 torch 2.4.1 默认即 cu121，与文档的 2.5.1 API 兼容。
+- 服务器的 7892 代理未运行（.bashrc 里有 watch_proxy，需要时用户手动开）。
+
+### 2. 划分钉死（关键工程）
+- 发现本地/服务器数据与 v8 时代差 1 个样本（01505 被删，ds 1504→1503）；
+  用"幻影补位法"把 01505 作为 pool 幻影插回排序位置，精确复现 v8 的 shuffle 索引，
+  生成 `split_v9.json`（test 30 / val 48 与 v8 逐样本一致，train 118）。
+- chip_02164 有 PNG 无 JSON，从未进过数据集（v8 pool 名单中也无它），无影响。
+
+### 3. v9 训练（train_v9.py，pid 24946，约 1 小时）
+- 配置：base_ch=64（13,208,323 参数）、bs=16、CE+Dice、lr 3e-3 warmup3→cosine、
+  EMA 0.999、bf16、100ep/patience20、种子 42、单卡 4090。
+- 轨迹：E1 85.88/27.30 → E8 89.58/37.89 → E11 90.60/44.33 → E20 92.60/43.10 →
+  **E37 最佳 92.75/47.76** → E57 早停。
+- **最终：Test OA 92.21%、Test mIoU 50.40%**（v8：67.07%/22.28%，+25.1pt/+28.1pt）。
+- EMA 后期读数剧烈波动始终未胜 raw，best=raw；v10 再调。
+- AL 同口径打分完成（pool 1278）：`uncertain_v9.txt`，Top1 score 0.5258（模型比 v8 自信得多）。
+
+### 4. 产物归位（三处一致）
+- 服务器→本地：results_v9.txt、uncertain_v9.txt、train_v9.log、checkpoints_v9/best.pth（51.6MB）
+- 文档：PROGRESS.md 已加 v9 条目；本存档同步更新；GitHub+服务器同步。
+
+### 5. 待办
+- [ ] 用户标注 v9 Top-30（uncertain_v9.txt）→ ready.txt 加 `# v9-1 批次` → v10
+- [ ] v10 候选：背景负标签类（优先）、指数通道、90°旋转、集成分歧、伪标签
+
+---
+
 *存档人：三楼 AI（opencode） | 首次存档：2026-07-30*
