@@ -69,4 +69,53 @@
 
 ---
 
+## 2026-07-30（同日第二次）— LabelMe 安装 + 服务器全量同步完成
+
+### 1. 用户决策更新
+- 旧权重（checkpoints/、checkpoints_v3/v4/v5 等）**全部保留**，不删除。
+- `mask/`（GEE 下载的老分类文件）**保留**，以后可能要看。
+- 标注工作由用户手动完成；本机仅需装好 LabelMe。
+
+### 2. LabelMe 安装完成（本机）
+- 安装 Miniconda → `C:\Users\18264\miniconda3`（conda 26.5.3，已接受 ToS）。
+- 新建虚拟环境 **`labelme`**（python=3.10），`pip install labelme` → **labelme 6.3.1**（PyQt5 5.15.11）。
+- 桌面已创建启动器：**`启动LabelMe.bat`**（双击即用）。
+- 验证：`import labelme` OK。未安装任何深度学习框架（符合"中转站"定位）。
+
+### 3. 服务器连接（dell@10.3.1.253）
+- 服务器：dell-PowerEdge-T640（Linux）；SSH 用户 `dell`，密码方式登录。
+- 工具：`plink.exe`/`pscp.exe`（PuTTY 官方）放在 `C:\Users\18264\AppData\Local\Temp\opencode\tools\`，
+  若被系统清理，从 https://the.earth.li/~sgtatham/putty/latest/w64/ 重新下载即可（各约 1MB）。
+- hostkey 指纹：`SHA256:V2H3mm56LTwgYdMmuT+gQEGYYFmXxM8Ucm6hqyD4/34`。
+- **纪律：只操作 `/data/wxy/tp0630`，wxy 目录的同级/上级文件夹一律不碰（别人的数据）。**
+
+### 4. 服务器清理 + 文档同步
+- 远程删除与本地一致的 30 个废物文件 + `__pycache__`。
+- 上传 8 个新/更新文件：`PROGRESS.md`、`REMOTE_SETUP.md`、`SETUP.md`、`project_knowledge.txt`、
+  `v8_summary.txt`、`LOCAL_ARCHIVE.md`、`.gitignore`、`uncertain_samples.txt`。
+
+### 5. 数据同步（重要发现与修复）
+- **发现**：服务器 02:26 的那次同步已中断——tiff 里 1524/1526 个文件是 256/512KB 的残缺桩，
+  images 里 2270/3009 个文件不完整。
+- **修复**：全量重传 `tiff/`（43.5GB，约 46MB/s，约 16 分钟）+ `eiseg_ready/images/`（1.6GB）。
+- **最终校验（逐文件比对大小）**：
+  | 目录 | 文件数 | 缺失 | 大小不符 |
+  |---|---|---|---|
+  | tiff/ | 1526 | 0 | 0 |
+  | eiseg_ready/images/ | 3009 | 0 | 0 |
+  | eiseg_ready/labels/ | 1526 | 0 | 0（原本就完整） |
+  | mask/ | 1529 | 0 | 0（原本就完整） |
+- 本地与服务器数据现已**完全一致**。
+
+### 6. 服务器磁盘预警
+- `/data` 分区 6.2TB，同步后**仅剩约 50GB（100% 水位）**。本分区是多用户共享，
+  后续大数据写入（如 v9 checkpoints）需留意；建议有机会时提醒管理员或清理。
+
+### 7. 持续同步机制（此后每次会话执行）
+1. 本地操作完成后：追加本存档 → `git commit` → `git push`（GitHub）。
+2. 有变动的文件：用 `pscp` 同步到服务器 `/data/wxy/tp0630/` 对应位置。
+3. 新增标注 JSON（用户手动标注产物）也需要在会话结束时同步到服务器 `eiseg_ready/images/`。
+
+---
+
 *存档人：三楼 AI（opencode） | 首次存档：2026-07-30*
