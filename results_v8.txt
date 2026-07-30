@@ -1,0 +1,8 @@
+v8 Supervised Training (Quadrant x4)
+=======================================================
+Total human-labeled: 196 (116 chip<=377 + 14 -- + 13 = + 45 == + 30 ===)
+Train base: 118 -> 472 quadrants
+Val: 48 human-labeled (fixed, center crop)
+Test: 30 human-labeled (fixed, center crop)
+Best Val OA: 0.8538  Best Val mIoU: 0.2968
+Test OA: 0.6707  Test mIoU: 0.2228
