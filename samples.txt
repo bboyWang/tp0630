@@ -1,0 +1,243 @@
+已标注样本清单
+============================================================
+
+[A] chip_id <= 377  (共 116 个)
+--------------------------------------------------
+     1. QTP_Wetland_2020_chip_00008_lc1_G33_02_tp0518
+     2. QTP_Wetland_2020_chip_00012_lc1_G33_02_tp0518
+     3. QTP_Wetland_2020_chip_00016_lc1_G33_02_tp0518
+     4. QTP_Wetland_2020_chip_00018_lc1_G34_02_tp0518
+     5. QTP_Wetland_2020_chip_00021_lc1_G34_02_tp0518
+     6. QTP_Wetland_2020_chip_00022_lc1_G34_02_tp0518
+     7. QTP_Wetland_2020_chip_00023_lc1_G34_02_tp0518
+     8. QTP_Wetland_2020_chip_00025_lc1_G34_02_tp0518
+     9. QTP_Wetland_2020_chip_00027_lc1_G34_02_tp0518
+    10. QTP_Wetland_2020_chip_00029_lc1_G34_02_tp0518
+    11. QTP_Wetland_2020_chip_00035_lc3_G24_02_tp0518
+    12. QTP_Wetland_2020_chip_00038_lc1_G34_02_tp0518
+    13. QTP_Wetland_2020_chip_00039_lc1_G34_02_tp0518
+    14. QTP_Wetland_2020_chip_00040_lc1_G33_02_tp0518
+    15. QTP_Wetland_2020_chip_00041_lc1_G34_02_tp0518
+    16. QTP_Wetland_2020_chip_00044_lc1_G34_02_tp0518
+    17. QTP_Wetland_2020_chip_00046_lc1_G34_02_tp0518
+    18. QTP_Wetland_2020_chip_00056_lc1_G34_02_tp0518
+    19. QTP_Wetland_2020_chip_00058_lc1_G34_02_tp0518
+    20. QTP_Wetland_2020_chip_00062_lc1_G34_02_tp0518
+    21. QTP_Wetland_2020_chip_00064_lc1_G34_02_tp0518
+    22. QTP_Wetland_2020_chip_00066_lc1_G34_02_tp0518
+    23. QTP_Wetland_2020_chip_00082_lc1_G30_03_tp0518
+    24. QTP_Wetland_2020_chip_00086_lc2_G24_03_tp0518
+    25. QTP_Wetland_2020_chip_00090_lc1_G30_03_tp0518
+    26. QTP_Wetland_2020_chip_00092_lc0_G21_03_tp0518
+    27. QTP_Wetland_2020_chip_00093_lc1_G31_03_tp0518
+    28. QTP_Wetland_2020_chip_00098_lc3_G21_03_tp0518
+    29. QTP_Wetland_2020_chip_00099_lc3_G21_03_tp0518
+    30. QTP_Wetland_2020_chip_00101_lc3_G21_03_tp0518
+    31. QTP_Wetland_2020_chip_00103_lc3_G21_03_tp0518
+    32. QTP_Wetland_2020_chip_00106_lc0_G21_03_tp0518
+    33. QTP_Wetland_2020_chip_00109_lc2_G24_03_tp0518
+    34. QTP_Wetland_2020_chip_00110_lc0_G21_03_tp0518
+    35. QTP_Wetland_2020_chip_00111_lc1_G31_03_tp0518
+    36. QTP_Wetland_2020_chip_00114_lc1_G21_03_tp0518
+    37. QTP_Wetland_2020_chip_00115_lc0_G21_03_tp0518
+    38. QTP_Wetland_2020_chip_00121_lc3_G21_03_tp0518
+    39. QTP_Wetland_2020_chip_00123_lc0_G21_03_tp0518
+    40. QTP_Wetland_2020_chip_00124_lc2_G21_03_tp0518
+    41. QTP_Wetland_2020_chip_00125_lc1_G30_03_tp0518
+    42. QTP_Wetland_2020_chip_00128_lc1_G30_03_tp0518
+    43. QTP_Wetland_2020_chip_00129_lc1_G27_03_tp0518
+    44. QTP_Wetland_2020_chip_00132_lc3_G21_03_tp0518
+    45. QTP_Wetland_2020_chip_00133_lc1_G30_03_tp0518
+    46. QTP_Wetland_2020_chip_00139_lc1_G30_03_tp0518
+    47. QTP_Wetland_2020_chip_00140_lc1_G27_03_tp0518
+    48. QTP_Wetland_2020_chip_00141_lc1_G31_03_tp0518
+    49. QTP_Wetland_2020_chip_00143_lc1_G27_03_tp0518
+    50. QTP_Wetland_2020_chip_00144_lc1_G31_03_tp0518
+    51. QTP_Wetland_2020_chip_00145_lc1_G27_03_tp0518
+    52. QTP_Wetland_2020_chip_00148_lc1_G27_03_tp0518
+    53. QTP_Wetland_2020_chip_00149_lc3_G21_03_tp0518
+    54. QTP_Wetland_2020_chip_00150_lc1_G31_03_tp0518
+    55. QTP_Wetland_2020_chip_00153_lc1_G28_03_tp0518
+    56. QTP_Wetland_2020_chip_00154_lc1_G28_03_tp0518
+    57. QTP_Wetland_2020_chip_00155_lc1_G28_03_tp0518
+    58. QTP_Wetland_2020_chip_00156_lc2_G20_03_tp0518
+    59. QTP_Wetland_2020_chip_00160_lc1_G31_03_tp0518
+    60. QTP_Wetland_2020_chip_00162_lc3_G21_03_tp0518
+    61. QTP_Wetland_2020_chip_00163_lc1_G28_03_tp0518
+    62. QTP_Wetland_2020_chip_00164_lc1_G28_03_tp0518
+    63. QTP_Wetland_2020_chip_00165_lc1_G28_03_tp0518
+    64. QTP_Wetland_2020_chip_00166_lc1_G31_03_tp0518
+    65. QTP_Wetland_2020_chip_00169_lc1_G28_03_tp0518
+    66. QTP_Wetland_2020_chip_00170_lc1_G28_03_tp0518
+    67. QTP_Wetland_2020_chip_00171_lc1_G28_03_tp0518
+    68. QTP_Wetland_2020_chip_00172_lc2_G24_03_tp0518
+    69. QTP_Wetland_2020_chip_00173_lc3_G21_03_tp0518
+    70. QTP_Wetland_2020_chip_00174_lc3_G21_03_tp0518
+    71. QTP_Wetland_2020_chip_00177_lc1_G31_03_tp0518
+    72. QTP_Wetland_2020_chip_00180_lc1_G28_03_tp0518
+    73. QTP_Wetland_2020_chip_00181_lc0_G24_03_tp0518
+    74. QTP_Wetland_2020_chip_00182_lc1_G31_03_tp0518
+    75. QTP_Wetland_2020_chip_00184_lc1_G29_03_tp0518
+    76. QTP_Wetland_2020_chip_00185_lc3_G16_03_tp0518
+    77. QTP_Wetland_2020_chip_00186_lc1_G28_03_tp0518
+    78. QTP_Wetland_2020_chip_00187_lc1_G31_03_tp0518
+    79. QTP_Wetland_2020_chip_00191_lc2_G24_03_tp0518
+    80. QTP_Wetland_2020_chip_00194_lc1_G31_03_tp0518
+    81. QTP_Wetland_2020_chip_00202_lc1_G31_03_tp0518
+    82. QTP_Wetland_2020_chip_00237_lc1_G19_04_tp0518
+    83. QTP_Wetland_2020_chip_00238_lc1_G18_04_tp0518
+    84. QTP_Wetland_2020_chip_00245_lc1_G25_04_tp0518
+    85. QTP_Wetland_2020_chip_00272_lc1_G18_04_tp0518
+    86. QTP_Wetland_2020_chip_00275_lc1_G24_04_tp0518
+    87. QTP_Wetland_2020_chip_00277_lc1_G25_04_tp0518
+    88. QTP_Wetland_2020_chip_00280_lc1_G24_04_tp0518
+    89. QTP_Wetland_2020_chip_00281_lc3_G24_04_tp0518
+    90. QTP_Wetland_2020_chip_00285_lc0_G23_04_tp0518
+    91. QTP_Wetland_2020_chip_00286_lc2_G20_04_tp0518
+    92. QTP_Wetland_2020_chip_00302_lc1_G20_04_tp0518
+    93. QTP_Wetland_2020_chip_00309_lc1_G20_04_tp0518
+    94. QTP_Wetland_2020_chip_00311_lc1_G32_04_tp0518
+    95. QTP_Wetland_2020_chip_00316_lc1_G17_04_tp0518
+    96. QTP_Wetland_2020_chip_00318_lc0_G17_04_tp0518
+    97. QTP_Wetland_2020_chip_00320_lc1_G17_04_tp0518
+    98. QTP_Wetland_2020_chip_00322_lc0_G24_04_tp0518
+    99. QTP_Wetland_2020_chip_00324_lc0_G20_04_tp0518
+   100. QTP_Wetland_2020_chip_00326_lc1_G17_04_tp0518
+   101. QTP_Wetland_2020_chip_00333_lc0_G19_04_tp0518
+   102. QTP_Wetland_2020_chip_00343_lc2_G16_04_tp0518
+   103. QTP_Wetland_2020_chip_00345_lc3_G15_04_tp0518
+   104. QTP_Wetland_2020_chip_00354_lc3_G33_04_tp0518
+   105. QTP_Wetland_2020_chip_00355_lc0_G33_04_tp0518
+   106. QTP_Wetland_2020_chip_00360_lc1_G29_05_tp0518
+   107. QTP_Wetland_2020_chip_00363_lc1_G30_05_tp0518
+   108. QTP_Wetland_2020_chip_00365_lc1_G32_05_tp0518
+   109. QTP_Wetland_2020_chip_00367_lc1_G30_05_tp0518
+   110. QTP_Wetland_2020_chip_00368_lc0_G18_05_tp0518
+   111. QTP_Wetland_2020_chip_00369_lc1_G30_05_tp0518
+   112. QTP_Wetland_2020_chip_00370_lc1_G30_05_tp0518
+   113. QTP_Wetland_2020_chip_00373_lc0_G16_05_tp0518
+   114. QTP_Wetland_2020_chip_00374_lc0_G17_05_tp0518
+   115. QTP_Wetland_2020_chip_00376_lc0_G16_05_tp0518
+   116. QTP_Wetland_2020_chip_00377_lc0_G17_05_tp0518
+
+[B] -- 批次（第一批额外标注）  (共 13 个)
+--------------------------------------------------
+     1. QTP_Wetland_2020_chip_00486_lc2_G17_05_tp0518
+     2. QTP_Wetland_2020_chip_01163_lc1_G26_09_tp0518
+     3. QTP_Wetland_2020_chip_01383_lc2_G20_09_tp0518
+     4. QTP_Wetland_2020_chip_01754_lc2_G12_10_tp0518
+     5. QTP_Wetland_2020_chip_00615_lc2_G24_06_tp0518
+     6. QTP_Wetland_2020_chip_00872_lc2_G22_08_tp0518
+     7. QTP_Wetland_2020_chip_01943_lc3_G05_11_tp0518
+     8. QTP_Wetland_2020_chip_01817_lc2_G21_11_tp0518
+     9. QTP_Wetland_2020_chip_01833_lc2_G33_11_tp0518
+    10. QTP_Wetland_2020_chip_01995_lc2_G28_12_tp0518
+    11. QTP_Wetland_2020_chip_00799_lc2_G20_07_tp0518
+    12. QTP_Wetland_2020_chip_01462_lc2_G30_09_tp0518
+    13. QTP_Wetland_2020_chip_01601_lc2_G25_10_tp0518
+
+[B] = 批次（第二批额外标注）  (共 14 个)
+--------------------------------------------------
+     1. QTP_Wetland_2020_chip_01452_lc2_G14_09_tp0518
+     2. QTP_Wetland_2020_chip_00547_lc2_G16_06_tp0518
+     3. QTP_Wetland_2020_chip_00813_lc2_G11_07_tp0518
+     4. QTP_Wetland_2020_chip_00577_lc0_G32_06_tp0518
+     5. QTP_Wetland_2020_chip_00559_lc2_G16_06_tp0518
+     6. QTP_Wetland_2020_chip_00748_lc1_G24_07_tp0518
+     7. QTP_Wetland_2020_chip_00540_lc2_G17_06_tp0518
+     8. QTP_Wetland_2020_chip_00642_lc1_G21_07_tp0518
+     9. QTP_Wetland_2020_chip_01679_lc2_G17_10_tp0518
+    10. QTP_Wetland_2020_chip_01082_lc2_G20_08_tp0518
+    11. QTP_Wetland_2020_chip_00668_lc2_G21_07_tp0518
+    12. QTP_Wetland_2020_chip_00844_lc2_G19_08_tp0518
+    13. QTP_Wetland_2020_chip_00563_lc2_G24_06_tp0518
+    14. QTP_Wetland_2020_chip_01274_lc2_G14_09_tp0518
+
+[B] == 批次（第三批 - 主动学习Top不确定样本）  (共 45 个)
+--------------------------------------------------
+     1. QTP_Wetland_2020_chip_00648_lc2_G18_07_tp0518
+     2. QTP_Wetland_2020_chip_00819_lc2_G21_07_tp0518
+     3. QTP_Wetland_2020_chip_01046_lc2_G23_08_tp0518
+     4. QTP_Wetland_2020_chip_01386_lc2_G19_09_tp0518
+     5. QTP_Wetland_2020_chip_01728_lc2_G26_10_tp0518
+     6. QTP_Wetland_2020_chip_01402_lc2_G23_09_tp0518
+     7. QTP_Wetland_2020_chip_00607_lc2_G16_06_tp0518
+     8. QTP_Wetland_2020_chip_00592_lc3_G16_06_tp0518
+     9. QTP_Wetland_2020_chip_01947_lc3_G08_11_tp0518
+    10. QTP_Wetland_2020_chip_01124_lc2_G22_09_tp0518
+    11. QTP_Wetland_2020_chip_02074_lc3_G20_12_tp0518
+    12. QTP_Wetland_2020_chip_00521_lc2_G24_06_tp0518
+    13. QTP_Wetland_2020_chip_01005_lc2_G15_08_tp0518
+    14. QTP_Wetland_2020_chip_01306_lc2_G20_09_tp0518
+    15. QTP_Wetland_2020_chip_00567_lc2_G23_06_tp0518
+    16. QTP_Wetland_2020_chip_01567_lc2_G23_06_tp0518
+    17. QTP_Wetland_2020_chip_00856_lc2_G26_08_tp0518
+    18. QTP_Wetland_2020_chip_00782_lc2_G21_07_tp0518
+    19. QTP_Wetland_2020_chip_01098_lc2_G15_08_tp0518
+    20. QTP_Wetland_2020_chip_01054_lc2_G19_08_tp0518
+    21. QTP_Wetland_2020_chip_02007_lc2_G30_12_tp0518
+    22. QTP_Wetland_2020_chip_01977_lc2_G28_11_tp0518
+    23. QTP_Wetland_2020_chip_01092_lc2_G17_08_tp0518
+    24. QTP_Wetland_2020_chip_00574_lc2_G20_06_tp0518
+    25. QTP_Wetland_2020_chip_01630_lc2_G19_10_tp0518
+    26. QTP_Wetland_2020_chip_00987_lc2_G17_08_tp0518
+    27. QTP_Wetland_2020_chip_00534_lc2_G20_06_tp0518
+    28. QTP_Wetland_2020_chip_01826_lc2_G25_11_tp0518
+    29. QTP_Wetland_2020_chip_01158_lc2_G23_09_tp0518
+    30. QTP_Wetland_2020_chip_00586_lc2_G18_06_tp0518
+    31. QTP_Wetland_2020_chip_00537_lc2_G24_06_tp0518
+    32. QTP_Wetland_2020_chip_01431_lc2_G16_09_tp0518
+    33. QTP_Wetland_2020_chip_00816_lc2_G21_07_tp0518
+    34. QTP_Wetland_2020_chip_01803_lc2_G19_10_tp0518
+    35. QTP_Wetland_2020_chip_00520_lc2_G18_06_tp0518
+    36. QTP_Wetland_2020_chip_00948_lc2_G22_08_tp0518
+    37. QTP_Wetland_2020_chip_01623_lc2_G22_10_tp0518
+    38. QTP_Wetland_2020_chip_01118_lc2_G20_09_tp0518
+    39. QTP_Wetland_2020_chip_00803_lc2_G15_07_tp0518
+    40. QTP_Wetland_2020_chip_00951_lc2_G11_08_tp0518
+    41. QTP_Wetland_2020_chip_00589_lc2_G23_06_tp0518
+    42. QTP_Wetland_2020_chip_02018_lc1_G20_12_tp0518
+    43. QTP_Wetland_2020_chip_01426_lc0_G12_09_tp0518
+    44. QTP_Wetland_2020_chip_01703_lc2_G20_10_tp0518
+    45. QTP_Wetland_2020_chip_02121_lc2_G30_13_tp0518
+
+[B] === 批次（第四批 - v7主动学习Top30）  (共 30 个)
+--------------------------------------------------
+     1. QTP_Wetland_2020_chip_01472_lc3_G30_09_tp0518
+     2. QTP_Wetland_2020_chip_02169_lc1_G30_14_tp0518
+     3. QTP_Wetland_2020_chip_02153_lc1_G30_13_tp0518
+     4. QTP_Wetland_2020_chip_02163_lc1_G30_13_tp0518
+     5. QTP_Wetland_2020_chip_00497_lc0_G23_06_tp0518
+     6. QTP_Wetland_2020_chip_01961_lc3_G16_11_tp0518
+     7. QTP_Wetland_2020_chip_02170_lc1_G30_14_tp0518
+     8. QTP_Wetland_2020_chip_01890_lc3_G11_11_tp0518
+     9. QTP_Wetland_2020_chip_01899_lc0_G27_11_tp0518
+    10. QTP_Wetland_2020_chip_00383_lc1_G30_05_tp0518
+    11. QTP_Wetland_2020_chip_01368_lc0_G19_09_tp0518
+    12. QTP_Wetland_2020_chip_01907_lc1_G23_11_tp0518
+    13. QTP_Wetland_2020_chip_01555_lc0_G29_10_tp0518
+    14. QTP_Wetland_2020_chip_01620_lc0_G29_10_tp0518
+    15. QTP_Wetland_2020_chip_02032_lc0_G23_12_tp0518
+    16. QTP_Wetland_2020_chip_01910_lc0_G27_11_tp0518
+    17. QTP_Wetland_2020_chip_02166_lc1_G30_14_tp0518
+    18. QTP_Wetland_2020_chip_01871_lc1_G20_11_tp0518
+    19. QTP_Wetland_2020_chip_00929_lc1_G29_08_tp0518
+    20. QTP_Wetland_2020_chip_01929_lc3_G17_11_tp0518
+    21. QTP_Wetland_2020_chip_01715_lc0_G33_10_tp0518
+    22. QTP_Wetland_2020_chip_01959_lc0_G20_11_tp0518
+    23. QTP_Wetland_2020_chip_01437_lc3_G30_09_tp0518
+    24. QTP_Wetland_2020_chip_01744_lc1_G07_10_tp0518
+    25. QTP_Wetland_2020_chip_01720_lc1_G07_10_tp0518
+    26. QTP_Wetland_2020_chip_02165_lc1_G30_14_tp0518
+    27. QTP_Wetland_2020_chip_01519_lc1_G09_10_tp0518
+    28. QTP_Wetland_2020_chip_01183_lc1_G24_09_tp0518
+    29. QTP_Wetland_2020_chip_01891_lc0_G30_11_tp0518
+    30. QTP_Wetland_2020_chip_01025_lc1_G22_08_tp0518
+
+============================================================
+总计: 218 个已标注样本
+  chip_id <= 377: 116
+  -- 批次（第一批额外标注）: 13
+  = 批次（第二批额外标注）: 14
+  == 批次（第三批 - 主动学习Top不确定样本）: 45
+  === 批次（第四批 - v7主动学习Top30）: 30

@@ -4,3 +4,12 @@ __pycache__/
 *.pyc
 eiseg_model/
 information/
+
+# ── 数据与权重（不通过 GitHub 同步，需手动拷贝）──
+tiff/
+eiseg_ready/
+mask/
+checkpoints*/
+*.npz
+*.log
+desktop.ini

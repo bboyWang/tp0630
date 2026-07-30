@@ -1,0 +1,7 @@
+v7 Supervised Baseline (Quadrant x4)
+=======================================================
+Train base: 122 human-labeled -> 488 quadrants
+Val: 20 human-labeled (fixed, center crop)
+Test: 300 independent (center crop)
+Best Val OA: 0.9041  Best Val mIoU: 0.3545
+Test OA: 0.7065  Test mIoU: 0.2467
