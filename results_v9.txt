@@ -1,0 +1,8 @@
+v9 Supervised Training (Quadrant x4, server 4090, torch 2.4.1+cu121)
+============================================================
+Config: base_ch=64 bs=16 CE+Dice lr=0.003(warmup3->cos) EMA=0.999 bf16
+Total human-labeled: 225 (v8:196 + v8-1:29) | Split pinned to v8 (split_v9.json)
+Train base: 147 -> 588 quadrants
+Val: 48 (fixed, same as v8)  Test: 30 (fixed, same as v8)
+Best Val OA: 0.9275  Best Val mIoU: 0.4776  (best from: raw)
+Test OA: 0.9221  Test mIoU: 0.5040
